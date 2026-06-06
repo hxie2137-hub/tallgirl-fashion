@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Helvetica Neue";
+  --font-display: "Didot";
+  color: #111111;
+  background: #f7f6f3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7f6f3;
+  color: #111111;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: #111111;
+  color: #ffffff;
+}
+
+.magazine-type {
+  font-family: var(--font-display), "Times New Roman", serif;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+.thin-rule {
+  border-color: rgba(17, 17, 17, 0.16);
+}
