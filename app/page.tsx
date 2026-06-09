@@ -8,8 +8,8 @@ const heroImage =
 
 const lookbookImages = [
   "/images/lookbook.png",
-  "/images/dress.png",
-  "/images/tops.png"
+  "/images/street-coat.png",
+  "/images/gallery-dress.png"
 ];
 
 const sizeRows = [
@@ -33,7 +33,7 @@ export default function Home() {
             <FashionImage
               src={heroImage}
               alt="TallGirl Fashion editorial model wearing minimal womenswear"
-              className="h-[62vh] min-h-[520px] w-full object-cover"
+              className="h-[62vh] min-h-[520px] w-full object-cover object-[center_18%]"
               fallbackLabel="TallGirl Fashion"
             />
           </div>

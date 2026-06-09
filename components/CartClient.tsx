@@ -30,6 +30,7 @@ export function CartClient() {
   function clearCart() {
     window.localStorage.removeItem("tallgirl-cart");
     setItems([]);
+    window.dispatchEvent(new Event("tallgirl-cart-updated"));
   }
 
   return (
@@ -95,7 +96,7 @@ export function CartClient() {
               <span>Subtotal</span>
               <span>${total}</span>
             </div>
-            <button className="h-14 w-full bg-ink text-[12px] uppercase tracking-[0.18em] text-white">
+            <button className="h-14 w-full bg-ink text-[12px] uppercase tracking-[0.18em] text-white hover:bg-ink/80">
               Checkout
             </button>
           </aside>

@@ -49,8 +49,8 @@ export function Header() {
 
   return (
     <header className="fixed left-0 right-0 top-0 z-50 border-b thin-rule bg-paper/88 backdrop-blur">
-      <div className="grid h-16 grid-cols-[220px_1fr_300px] items-center px-8 text-[12px] uppercase tracking-[0.16em] text-ink lg:px-12">
-        <Link href="/" className="text-[22px] font-light tracking-[0.18em]">
+      <div className="grid h-16 grid-cols-[1fr_auto] items-center px-5 text-[12px] uppercase tracking-[0.16em] text-ink lg:grid-cols-[220px_1fr_300px] lg:px-12">
+        <Link href="/" className="text-[20px] font-light tracking-[0.18em] lg:text-[22px]">
           TALLGIRL
         </Link>
         <nav className="hidden justify-center gap-8 xl:flex">
@@ -70,7 +70,7 @@ export function Header() {
               className="w-24 border-0 border-b border-ink/25 bg-transparent px-0 py-1 text-[12px] uppercase tracking-[0.12em] outline-none placeholder:text-ink focus:w-36 focus:border-ink"
             />
           </form>
-          <Link href="#" className="hover:opacity-50">
+          <Link href="/account" className="hidden hover:opacity-50 sm:block">
             Login
           </Link>
           <Link href="/cart" className="hover:opacity-50">

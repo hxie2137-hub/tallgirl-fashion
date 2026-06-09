@@ -40,7 +40,7 @@ export const products: Product[] = [
       "A clean straight-leg jean with an extended inseam, higher rise, and restrained wash for everyday polish.",
     images: [
       "/images/jeans-shirt.png",
-      "/images/jeans.png"
+      "/images/light-jeans.png"
     ]
   },
   {
@@ -55,8 +55,8 @@ export const products: Product[] = [
     description:
       "A clean black long sleeve with extra body length and sleeves that sit exactly where they should.",
     images: [
-      "/images/tops.png",
-      "/images/tops-alt.png"
+      "/images/studio-long-sleeve.png",
+      "/images/tops.png"
     ]
   },
   {
@@ -71,8 +71,8 @@ export const products: Product[] = [
     description:
       "Fluid wide-leg tailoring cut with a longer drape, designed to skim the floor with flats or heels.",
     images: [
-      "/images/lookbook.png",
-      "/images/lookbook-alt.png"
+      "/images/street-coat.png",
+      "/images/lookbook.png"
     ]
   },
   {
@@ -87,7 +87,7 @@ export const products: Product[] = [
     description:
       "A long column dress with minimal seams, a quiet neckline, and proportioned length for taller frames.",
     images: [
-      "/images/dress.png",
+      "/images/gallery-dress.png",
       "/images/dress-alt.png"
     ]
   },
@@ -119,8 +119,8 @@ export const products: Product[] = [
     description:
       "A full-length black jean with a slim line, elongated inseam, and clean ankle break.",
     images: [
-      "/images/jeans-alt.png",
-      "/images/jeans-shirt-alt.png"
+      "/images/light-jeans.png",
+      "/images/jeans-alt.png"
     ]
   },
   {
@@ -135,8 +135,8 @@ export const products: Product[] = [
     description:
       "Fine gauge knitwear with a lean sleeve and balanced shoulder line for taller proportions.",
     images: [
-      "/images/tops-alt.png",
-      "/images/lookbook.png"
+      "/images/studio-long-sleeve.png",
+      "/images/tops-alt.png"
     ]
   },
   {
@@ -152,7 +152,7 @@ export const products: Product[] = [
       "A restrained halter silhouette with a true maxi length and light movement through the hem.",
     images: [
       "/images/dress-alt.png",
-      "/images/dress.png"
+      "/images/gallery-dress.png"
     ]
   },
   {
@@ -168,7 +168,7 @@ export const products: Product[] = [
       "Sharp high-rise trousers with generous length and a clean front, made for a longer line.",
     images: [
       "/images/lookbook-alt.png",
-      "/images/jeans-alt.png"
+      "/images/street-coat.png"
     ]
   },
   {
@@ -183,7 +183,7 @@ export const products: Product[] = [
     description:
       "A foundational long sleeve tee with a longer torso and narrow neckline, built to tuck or wear loose.",
     images: [
-      "/images/tops-alt.png",
+      "/images/studio-long-sleeve.png",
       "/images/tops.png"
     ]
   },
@@ -199,8 +199,8 @@ export const products: Product[] = [
     description:
       "A clean halter dress with column proportions and a floor-skimming length for tall frames.",
     images: [
-      "/images/dress.png",
-      "/images/dress-alt.png"
+      "/images/gallery-dress.png",
+      "/images/dress.png"
     ]
   },
   {
@@ -216,7 +216,7 @@ export const products: Product[] = [
       "Relaxed denim with extra inseam, soft fading, and a measured rise for an easy full-length fit.",
     images: [
       "/images/jeans.png",
-      "/images/jeans-alt.png"
+      "/images/light-jeans.png"
     ]
   }
 ];

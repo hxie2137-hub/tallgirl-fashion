@@ -25,6 +25,7 @@ TallGirl Fashion is a desktop-first fashion ecommerce concept for tall women. It
 - `/products` product listing, search, filter, and sort
 - `/products/[slug]` product detail pages
 - `/cart` cart
+- `/account` account/login demo page
 - `/about` brand, shipping, and returns
 - `/size-guide` tall-fit sizing reference
 
@@ -50,3 +51,4 @@ npm run build
 - Modeled product data with category, editorial tag, height fit, and fit notes to support both merchandising and product-detail UX.
 - Implemented client-side search, filters, sorting, cart persistence, and live cart count without a backend.
 - Used a restrained visual system to match a luxury fashion direction: black-and-white imagery, large whitespace, thin typography, and minimal UI chrome.
+- Kept the project deployment-friendly by storing visual assets locally and excluding build artifacts, dependencies, caches, and environment files from Git.
